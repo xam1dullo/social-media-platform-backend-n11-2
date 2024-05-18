@@ -1,5 +1,11 @@
 import pg from "pg"
 import dotenv from "dotenv"
+import {
+    setUpPostsQuery
+} from "./setUp.posts.js"
+import {
+    setUpUsersQuery
+} from "./setUp.users.js"
 dotenv.config()
 
 const {
@@ -22,16 +28,7 @@ const pool = new Pool({
     database: POSTGRES_DATABASE
 })
 
-// export const create = (name, email, password) => {
-
-// }
-
-export const setUp = () => {
-    const query = `
-
-
-
-
-
-`
+export setUp() => {
+    // setUpPostsQuery
+    // setUpUsersQuery
 }
