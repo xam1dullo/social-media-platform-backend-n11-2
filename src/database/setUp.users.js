@@ -6,5 +6,5 @@ export const setUpUsersQuery = () => {
 
 
 `
-
+    return query
 }

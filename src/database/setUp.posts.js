@@ -6,5 +6,6 @@ export const setUpPostsQuery = () => {
 
 
 `
+    return query
 
 }

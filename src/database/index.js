@@ -31,4 +31,5 @@ const pool = new Pool({
 export setUp() => {
     // setUpPostsQuery
     // setUpUsersQuery
+    pool.query(setUpPostsQuery)
 }
